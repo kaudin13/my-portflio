@@ -46,14 +46,15 @@ type Memory = {
   photos: string[];
 };
 
+
 const memories: Memory[] = [
   {
     title: "Food & little joys",
     clue: "A favourite meal, cafe, or food adventure",
     story: "A collection of little food adventures, favourite meals, and moments that made ordinary days special.",
     photos: [
-      "\public\Cozy Café Feast and Laptop Work.png"
-      
+      "/images/memories/Cozy-Cafe-Feast-and-Laptop-Work.png",
+      "/images/memories/cafe-food.png"
     ]
   },
   {
@@ -61,7 +62,7 @@ const memories: Memory[] = [
     clue: "A little rhythm in everyday life",
     story: "Dance has been a part of my life for years. From workshops to Garba, it is one of my favourite ways to express myself.",
     photos: [
-      "\public\dance.jpeg"
+      "/images/dance.jpeg"
     ]
   },
   {
@@ -69,9 +70,9 @@ const memories: Memory[] = [
     clue: "Places, rain, nature, and spontaneous adventures",
     story: "A few places and outdoor moments that I love remembering.",
     photos: [
-      "\images\fun_fish.jpeg",
-      "\images\Golden-Hour Mountain Hike Portrait.png",
-      "\images\marathon.jpeg"
+      "/images/fun_fish.jpeg",
+      "/images/Golden-Hour-Mountain-Hike-Portrait.png",
+      "/images/marathon.jpeg"
     ]
   },
   {
@@ -79,13 +80,11 @@ const memories: Memory[] = [
     clue: "The people and celebrations that matter",
     story: "Some of the people and little moments that make life meaningful.",
     photos: [
-      "\images\garbaa.jpeg",
-      "\images\portirait.jpeg",
-      "\images\presentation contest.jpeg",
-      "\images\japanese_gorund_event.jpeg",
-      "\images\japanese_event.jpeg"
-
-      
+      "/images/garbaa.jpeg",
+      "/images/portirait.jpeg",
+      "/images/presentation-contest.jpeg",
+      "/images/japanese-gorund-event.jpeg",
+      "/images/japanese-event.jpeg"
     ]
   },
   {
@@ -93,16 +92,17 @@ const memories: Memory[] = [
     clue: "Doodling, gardening, and making things",
     story: "Beyond engineering, I enjoy doodling, gardening, experimenting, and finding creative things to do.",
     photos: [
-      "\images\hackathon.jpeg",
-      "\images\samurai.jpeg",
-      "\images\marathon.jpeg",
-      "\images\doodling.jpeg"
+      "/images/hackathon.jpeg",
+      "/images/samurai.jpeg",
+      "/images/doodling.jpeg"
     ]
   }
 ];
+
 const maze = ["#########", "#P..#..1#", "#.#...#.#", "#..#.#..#", "#2...#3.#", "###.#.###", "#4..#..5#", "#.......#", "#########"];
 const initialPlayer = { r: 1, c: 1 };
 const initialTreats = [{ id: 0, r: 1, c: 2, memory: 0 }, { id: 1, r: 1, c: 3, memory: 1 }, { id: 2, r: 2, c: 5, memory: 2 }, { id: 3, r: 4, c: 1, memory: 3 }, { id: 4, r: 6, c: 1, memory: 4 }];
+
 
 export default function Home() {
   const [menuOpen, setMenuOpen] = useState(false);
