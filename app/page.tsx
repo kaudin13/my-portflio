@@ -52,9 +52,8 @@ const memories: Memory[] = [
     clue: "A favourite meal, cafe, or food adventure",
     story: "A collection of little food adventures, favourite meals, and moments that made ordinary days special.",
     photos: [
-      "/images/memories/food-1.jpg",
-      "/images/memories/food-2.jpg",
-      "/images/memories/food-3.jpg"
+      "\public\Cozy Café Feast and Laptop Work.png"
+      
     ]
   },
   {
@@ -62,8 +61,7 @@ const memories: Memory[] = [
     clue: "A little rhythm in everyday life",
     story: "Dance has been a part of my life for years. From workshops to Garba, it is one of my favourite ways to express myself.",
     photos: [
-      "/images/memories/dance-1.jpg",
-      "/images/memories/dance-2.jpg"
+      "\public\dance.jpeg"
     ]
   },
   {
@@ -71,7 +69,9 @@ const memories: Memory[] = [
     clue: "Places, rain, nature, and spontaneous adventures",
     story: "A few places and outdoor moments that I love remembering.",
     photos: [
-      "/images/memories/places-1.jpg"
+      "\images\fun_fish.jpeg",
+      "\images\Golden-Hour Mountain Hike Portrait.png",
+      "\images\marathon.jpeg"
     ]
   },
   {
@@ -79,7 +79,13 @@ const memories: Memory[] = [
     clue: "The people and celebrations that matter",
     story: "Some of the people and little moments that make life meaningful.",
     photos: [
-      "/images/memories/people-1.jpg"
+      "\images\garbaa.jpeg",
+      "\images\portirait.jpeg",
+      "\images\presentation contest.jpeg",
+      "\images\japanese_gorund_event.jpeg",
+      "\images\japanese_event.jpeg"
+
+      
     ]
   },
   {
@@ -87,7 +93,10 @@ const memories: Memory[] = [
     clue: "Doodling, gardening, and making things",
     story: "Beyond engineering, I enjoy doodling, gardening, experimenting, and finding creative things to do.",
     photos: [
-      "/images/memories/creative-1.jpg"
+      "\images\hackathon.jpeg",
+      "\images\samurai.jpeg",
+      "\images\marathon.jpeg",
+      "\images\doodling.jpeg"
     ]
   }
 ];
