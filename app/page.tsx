@@ -53,8 +53,8 @@ const memories: Memory[] = [
     clue: "A favourite meal, cafe, or food adventure",
     story: "A collection of little food adventures, favourite meals, and moments that made ordinary days special.",
     photos: [
-      "/images/memories/Cozy-Cafe-Feast-and-Laptop-Work.png",
-      "/images/memories/cafe-food.png"
+      "/images/Cozy-Cafe-Feast-and-Laptop-Work.png",
+      "/images/cafe-food.png"
     ]
   },
   {
